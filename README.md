@@ -100,9 +100,9 @@ patients.surname.value_counts()
 ````
 
 - We will notice some repetition and duplication for some names such as Doe              6
-  Jakobsen         3
-  Taylor           3
-  Kadyrov          2
+  - Jakobsen         3
+  - Taylor           3
+  - Kadyrov          2
 
 
 
@@ -113,8 +113,8 @@ patients.address.value_counts()
 ````
 
 - This should confirm that the same name under the same address is been duplicated; example 
-  123 Main Street                  6
-  648 Old Dear Lane                2
+  - 123 Main Street                  6
+  - 648 Old Dear Lane                2
 
 
 
@@ -134,10 +134,10 @@ patients.weight.sort_values()
 - Propably these were registered as KG instead of LB
 - It is for patient 210
 
-    210     48.8
-    459    102.1
-    335    102.7
-    74     103.2
+   - 210     48.8
+   - 459    102.1
+   - 335    102.7
+   - 74     103.2
 
 ````
 
@@ -157,7 +157,7 @@ patients[patients.surname == 'Zaitseva'].bmi
 
 - Checking it using the above code to change kg to lb
 - This gices us same petient reult 
-    210    19.055827
+    - 210    19.055827
 
 
 ````
